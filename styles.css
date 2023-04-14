@@ -1,0 +1,246 @@
+
+header{
+    padding-left: 10px;
+display: flex;
+align-items: center;
+}
+
+#titulo {
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color:#061a52;
+    margin: 10px;
+    padding-left: 10px;
+    font-size: 45px;
+}
+    
+#barranav {text-align: right;
+    align-content: center;
+    margin-left: 999px;
+    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+a{
+text-decoration: none;
+padding: 12px;
+color:#061a52;
+}
+
+
+/* Main Page - portada principal*/
+.sect1{
+    position: relative;
+}
+
+.bck1{
+    width: 100%;
+    display:block; 
+    height: auto;
+    margin: 0px;
+    padding: 0px;
+}
+
+.sign {
+    position: absolute;
+    transform: translate(210px, -580px);
+    width: 25%;
+}
+
+.subt{
+    position: absolute;
+    transform: translate(290px, -282px);
+    color: #ffffff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 25px;
+    font-weight: lighter;
+    font-stretch: expanded;
+}
+
+
+/* Giveaway - anuncio*/
+.sect2{
+    display: inline-block;
+}
+
+.bck2{
+    width: 100%;
+    display:block; 
+    height: auto;
+    position: relative;
+}
+
+.giveaway-text{
+    color: #ffffff;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -225%);
+    text-align: center;
+    font-size: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.titulo{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color:#ffffff;
+    font-size: 45px;
+}
+
+.participar-btn {
+    background-color: #FFFFFF;
+    color: #061a52;
+    font-size: 26px;
+    font-weight: bold;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transform: translate(300%, -850%)
+  }
+
+  .participar-btn:hover {
+    background-color: #e3ecff;
+    color: #000761;
+  }
+
+
+/*Form y fondo de la form*/
+
+form{position: absolute;
+    top: 130px;
+    left: 100px;
+    width: 50%;
+    padding: 20px;
+    background-color: #fff;
+    z-index: 1;}
+
+  .bgmg{
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+
+  .container{
+    position: relative;
+  width: 100%;
+  height: 100%;
+  }
+
+/* Estilo para el contenedor */
+.form-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    max-width: 450px;
+  }
+  
+  /* Estilo para títulos*/
+  .form-label {
+    font-weight: lighter;
+    margin-bottom: 5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  
+  /* Estilo para el contenedor de los elementos de entrada (input, select, textarea) */
+  .form-input {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+  }
+  
+  /* Estilo para el botón de submit */
+  button[type="submit"] {
+    background-color: #061a52;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  /* Estilo para el espacio del input */
+  input[type="text"], input[type="email"], select, textarea {
+    padding: 5px;
+    margin: 5px 0;
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    border: none;
+    background-color: rgb(234, 234, 234);
+    height: 35px;
+  }
+  
+  /* Estilo para los radio buttons */
+  input[type="radio"] {
+    margin-right: 10px;
+  }
+
+  footer {
+    background-color: #061a52;
+    color: #fff;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  
+  .footer-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+  
+  .footer-left ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .footer-left li {
+    margin-bottom: 10px;
+  }
+  
+  .footer-left a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 14px;
+  }
+  
+  .footer-left a:hover {
+    color: antiquewhite;
+  }
+  
+  .footer-right {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  
+  .footer-right p {
+    font-family: Impact, sans-serif;
+    font-size: 30px;
+    margin-right: 20px;
+    align-items: center;
+  }
+  
+  .social-icons {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  
+  .social-icons a {
+    color: #fff;
+    font-size: 24px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  
+  
