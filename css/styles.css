@@ -1,4 +1,26 @@
 
+/*Barra de Navegación*/
+.logo{
+    width: 25%;
+    margin: 0.5em;
+    margin-left: 2em;
+    align-content: center;
+}
+
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin-top: 1.2em;
+    margin-bottom: 1.2em;
+}
+
 header{
     padding-left: 10px;
 display: flex;
